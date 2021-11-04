@@ -1,5 +1,7 @@
 <?php
 
+use App\Providers\JwtServiceProvider;
+
 return [
 
     /*
@@ -174,6 +176,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        JwtServiceProvider::class,
 
     ],
 
